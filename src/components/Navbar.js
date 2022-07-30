@@ -11,6 +11,7 @@ function Navbar() {
             <Link to="/tempratureApp" className='bg-gray-600 px-2 py-2 rounded-md text-white'> Temprature</Link>
             <Link to="/FilterListApp" className='bg-gray-600 px-2 py-2 rounded-md text-white'> Filter List </Link>
             <Link to="/FormApp" className='bg-gray-600 px-2 py-2 rounded-md text-white'> Form </Link>
+            <Link to="/QuizApp" className='bg-gray-600 px-2 py-2 rounded-md text-white'> Quiz </Link>
         </div>
         </div>
     </div>

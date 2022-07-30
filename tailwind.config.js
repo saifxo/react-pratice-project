@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'Poppins': ['"Poppins"', 'sans-serif'],
-        'Edu':['Edu VIC WA NT Beginner', 'cursive']
+        'Edu':['Edu VIC WA NT Beginner', 'cursive'],
+        'Source':['Source Sans Pro', 'sans-serif']
       },
     },
   },

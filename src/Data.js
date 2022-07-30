@@ -1,6 +1,4 @@
 export const Data=[
- 
-  
   {
     "_id": "62e44123ce75ced2045336d0",
     "name": "Reeves"
@@ -66,3 +64,114 @@ export const Data=[
     "name": "Grimes"
   }
 ]
+
+
+export const QuizData=
+{
+  "questions": [
+      {
+          "id":1,
+          "q": "What is the Capital of Pakistan?",
+          "a": [
+              {
+                  "option": "Rawalpindi",
+                  "correct": false
+              },
+              {
+                  "option": "Islamabad",
+                  "correct": true
+              },
+              {
+                  "option": "Lahore",
+                  "correct": false
+              },
+              {
+                  "option": "Karachi",
+                  "correct": false
+              }
+          ],
+          "correct": "<p><span>Correct</span>TYPE YOUR FEEDBACK HERE</p>",
+          "incorrect": "<p><span>Incorrect</span>TYPE YOUR FEEDBACK HERE</p>",
+          "select_any": false,
+          "force_checkbox": false
+      },
+      {
+          "id":2,
+          "q": "What is the meaning of Pakistan?",
+          "a": [
+              {
+                  "option": "Muslim Land",
+                  "correct": false
+              },
+              {
+                  "option": "Desert",
+                  "correct": false
+              },
+              {
+                  "option": "Holly Land",
+                  "correct": false
+              },
+              {
+                  "option": "Land of Five Rivers",
+                  "correct": true
+              }
+          ],
+          "correct": "<p><span>Correct</span>TYPE YOUR FEEDBACK HERE</p>",
+          "incorrect": "<p><span>Incorrect</span>TYPE YOUR FEEDBACK HERE</p>",
+          "select_any": false,
+          "force_checkbox": false
+      },
+      {
+         "id":3,
+          "q": "Who is the first Governor General of Pakistan?",
+          "a": [
+              {
+                  "option": "Mohammed Ali Jinnah",
+                  "correct": true
+              },
+              {
+                  "option": "Liaquat Ali Khan",
+                  "correct": false
+              },
+              {
+                  "option": "Ayub Khan",
+                  "correct": false
+              },
+              {
+                  "option": "Iskander Mirza",
+                  "correct": false
+              }
+          ],
+          "correct": "<p><span>Correct</span>TYPE YOUR FEEDBACK HERE</p>",
+          "incorrect": "<p><span>Incorrect</span>TYPE YOUR FEEDBACK HERE</p>",
+          "select_any": false,
+          "force_checkbox": false
+      },
+      {
+        "id":4,
+          "q": "In which year did Pakistan win the Cricket World Cup?",
+          "a": [
+              {
+                  "option": "1975",
+                  "correct": false
+              },
+              {
+                  "option": "1987",
+                  "correct": false
+              },
+              {
+                  "option": "1992",
+                  "correct": true
+              },
+              {
+                  "option": "1996",
+                  "correct": false
+              }
+          ],
+          "correct": "<p><span>Correct</span>TYPE YOUR FEEDBACK HERE</p>",
+          "incorrect": "<p><span>Incorrect</span>TYPE YOUR FEEDBACK HERE</p>",
+          "select_any": false,
+          "force_checkbox": false
+      }
+  ]
+}

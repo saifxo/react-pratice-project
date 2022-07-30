@@ -2,7 +2,7 @@ import React, {useState} from 'react'
  import { useFormik } from 'formik';
  import * as Yup from "yup"
 function FormApp() {
-    const {handleChange, handleSubmit ,handleReset,handleBlur, values, errors, touched} =useFormik({
+    const {handleChange, handleSubmit ,handleBlur, values, errors, touched} =useFormik({
         initialValues:{
             firstname:'',
             lastname:'',
