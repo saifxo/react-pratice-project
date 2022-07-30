@@ -9,11 +9,11 @@ function Navbar() {
         <div className='flex w-full flex-wrap justify-between items-center'>
         <h1 className='font-bold text-xl font-Poppins ml-10'>My Apps</h1>
         <div className='space-x-2  w-full justify-center -mt-8  flex-row hidden md:flex md:space-x-4 '>
-            <Link to="/" className='bg-gray-600 px-2 py-2 rounded-md text-white'> Counter</Link>
-            <Link to="/tempratureApp" className='bg-gray-600 px-2 py-2 rounded-md text-white'> Temprature</Link>
-            <Link to="/FilterListApp" className='bg-gray-600 px-2 py-2 rounded-md text-white'> Filter List </Link>
-            <Link to="/FormApp" className='bg-gray-600 px-2 py-2 rounded-md text-white'> Form </Link>
-            <Link to="/QuizApp" className='bg-gray-600 px-2 py-2 rounded-md text-white'> Quiz </Link>
+            <Link to="/" className='bg-gray-600 hover:bg-gray-700 px-2 py-2 rounded-md hover:scale-110 transition-all ease-out delay-30  text-white'> Counter</Link>
+            <Link to="/tempratureApp" className='bg-gray-600 hover:bg-gray-700 px-2 py-2 rounded-md text-white hover:scale-110 transition-all ease-out delay-30'> Temprature</Link>
+            <Link to="/FilterListApp" className='bg-gray-600 hover:bg-gray-700 px-2 py-2 rounded-md text-white hover:scale-110 transition-all ease-out delay-30'> Filter List </Link>
+            <Link to="/FormApp" className='bg-gray-600 hover:bg-gray-700 px-2 py-2 rounded-md text-white hover:scale-110 transition-all ease-out delay-30'> Form </Link>
+            <Link to="/QuizApp" className='bg-gray-600 hover:bg-gray-700 px-2 py-2 rounded-md text-white hover:scale-110 transition-all ease-out delay-30'> Quiz </Link>
         
         </div>
           {!flag ?(<button onClick={()=>setflag(true)}><MenuIcon className='w-8 md:hidden h-8 mr-5'/></button>):(<button onClick={()=>setflag(false)}><XIcon className='w-8 h-8 mr-5'/></button>) }
