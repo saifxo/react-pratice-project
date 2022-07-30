@@ -12,7 +12,7 @@ function FilterListApp() {
         <input className='mt-5 appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-black focus:border-2" id="grid-last-name" type="text"' placeholder='search'onChange={(e)=>setsearchTerm(e.target.value)}></input>
         <div className='flex mt-5 justify-center flex-col items-center'>
         {Data.filter((val)=>{
-            if(searchTerm=="")
+            if(searchTerm==="")
             return val
             else if(val.name.toLowerCase().includes(searchTerm.toLowerCase())){
                 return val
