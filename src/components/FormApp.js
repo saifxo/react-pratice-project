@@ -42,7 +42,7 @@ function FormApp() {
         <input className='mt-5 appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-black focus:border-2" id="grid-last-name" type="text"' onChange={handleChange} type="password" name="password" value={values.password} onBlur={handleBlur} placeholder='Password'></input>
         <p className='text-red-600 -mb-4 w-72'>{touched.password && errors ? errors.password : null}</p>
         <div className='flex justify-center items-center'>
-            <button type='submit' className='bg-blue-400 py-2 px-4 rounded-md mt-5'>Submit</button>
+            <button type='submit' className='bg-gray-600 py-2 px-4 hover:scale-110 transition-all ease-out delay-30 rounded-md mt-7 text-white hover:bg-gray-700'>Submit</button>
         </div>
         </form>
         </div>        
