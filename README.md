@@ -6,6 +6,9 @@
 ![My Image](./public/Screenshot%202022-07-31%20004754.png)
 ![My Image](./public/Screenshot%202022-07-31%20004816.png)
 ![My Image](./public/Screenshot%202022-07-31%20004842.png)
+![My Image](./public/Screenshot%202022-08-01%20023733.png)
+![My Image](./public/Screenshot%202022-08-01%20023707.png)
+![My Image](./public/Screenshot%202022-08-01%20023721.png)
 
 
 # Getting Started with Create React App

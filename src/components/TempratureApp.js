@@ -41,7 +41,7 @@ function TempratureApp() {
     check();
   }
   return (
-    <div className="flex   justify-center flex-col items-center">
+    <div className="flex   justify-center flex-col items-center transition transform scale-100 delay-500">
       <h1 className=" font-bold text-2xl p-5 font-Edu mt-5 bg-gray-300 text-black rounded-lg shadow-md">
         Temprature App
       </h1>
